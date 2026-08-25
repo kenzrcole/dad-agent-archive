@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Congressional Trading Archive</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#fff; --ink:#111827; --muted:#6b7280;
+    --line:#e5e7eb; --accent:#1d4ed8; --buy:#047857; --sell:#b91c1c;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;
+       font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+  header{background:var(--ink);color:#fff;padding:26px 22px}
+  header h1{margin:0;font-size:21px;letter-spacing:-.01em}
+  header p{margin:6px 0 0;color:#9ca3af;font-size:14px}
+  main{max-width:1180px;margin:0 auto;padding:22px}
+  .tabs{display:flex;gap:8px;margin-bottom:18px}
+  .tab{padding:8px 16px;border:1px solid var(--line);background:var(--card);
+       border-radius:999px;cursor:pointer;font-size:14px}
+  .tab[aria-selected="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .stats{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;
+        padding:12px 16px;min-width:130px}
+  .stat b{display:block;font-size:22px}
+  .stat span{color:var(--muted);font-size:13px}
+  .controls{background:var(--card);border:1px solid var(--line);border-radius:10px;
+            padding:14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+  input,select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;
+               font-size:14px;font-family:inherit;background:#fff;color:inherit}
+  input[type=search]{flex:1;min-width:220px}
+  button.link{background:none;border:none;color:var(--accent);cursor:pointer;font-size:14px;padding:0}
+  table{width:100%;border-collapse:collapse;background:var(--card);
+        border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:14px}
+  th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{background:#f9fafb;cursor:pointer;user-select:none;white-space:nowrap;font-size:13px}
+  th:hover{color:var(--accent)}
+  th .dir{color:var(--muted);font-weight:400}
+  tbody tr:hover{background:#f9fafb}
+  .buy{color:var(--buy);font-weight:600}
+  .sell{color:var(--sell);font-weight:600}
+  .pill{display:inline-block;padding:1px 7px;border-radius:999px;background:#f3f4f6;font-size:12px}
+  .muted{color:var(--muted)}
+  .empty{padding:40px;text-align:center;color:var(--muted)}
+  footer{max-width:1180px;margin:0 auto;padding:22px;color:var(--muted);font-size:13px}
+  a{color:var(--accent)}
+  @media (max-width:640px){ .hide-sm{display:none} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Congressional Trading Archive</h1>
+  <p>Every report ever sent, and every disclosure in them. Sourced from House Clerk and Senate eFD filings.</p>
+</header>
+
+<main>
+  <div class="tabs" role="tablist">
+    <div class="tab" role="tab" id="tab-trades" aria-selected="true">Disclosures</div>
+    <div class="tab" role="tab" id="tab-reports" aria-selected="false">Reports</div>
+  </div>
+
+  <div id="view-trades">
+    <div class="stats" id="stats"></div>
+
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search politician, ticker, state or amount…">
+      <select id="f-politician"><option value="">All politicians</option></select>
+      <select id="f-ticker"><option value="">All tickers</option></select>
+      <select id="f-party"><option value="">Both parties</option></select>
+      <select id="f-type"><option value="">Buys and sells</option></select>
+      <select id="f-date"><option value="">Any date</option></select>
+      <button class="link" id="reset">Reset</button>
+    </div>
+
+    <table id="trades">
+      <thead><tr>
+        <th data-key="politician">Politician</th>
+        <th data-key="party">Party</th>
+        <th data-key="state" class="hide-sm">State</th>
+        <th data-key="ticker">Ticker</th>
+        <th data-key="type">Buy/Sell</th>
+        <th data-key="amount">Value</th>
+        <th data-key="date">Trade date</th>
+        <th data-key="first_sent" class="hide-sm">Reported</th>
+        <th>Source</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="muted" id="count"></p>
+  </div>
+
+  <div id="view-reports" hidden>
+    <table id="reports">
+      <thead><tr>
+        <th data-key="sent">Sent</th>
+        <th data-key="trades">Disclosures</th>
+        <th>Members covered</th>
+        <th>Report</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  Built from public filings. Members have up to 45 days to disclose a trade, so recent
+  activity may not appear yet.
+</footer>
+
+<script>
+const state = { trades: [], reports: [], sort: { key: 'date', dir: -1 }, rsort: { key: 'sent', dir: -1 } };
+
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function load() {
+  const [trades, reports] = await Promise.all([
+    fetch('data/trades.json').then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch('data/reports.json').then(r => r.ok ? r.json() : []).catch(() => []),
+  ]);
+  state.trades = trades;
+  state.reports = reports;
+  fillFilters();
+  renderStats();
+  renderTrades();
+  renderReports();
+}
+
+function fillFilters() {
+  const uniq = key => [...new Set(state.trades.map(t => t[key]).filter(Boolean))].sort();
+  const fill = (id, values, label = v => v) => {
+    const sel = document.getElementById(id);
+    values.forEach(v => sel.add(new Option(label(v), v)));
+  };
+  // Politicians are listed by how active they are, since that is what gets looked up.
+  const counts = {};
+  state.trades.forEach(t => counts[t.politician] = (counts[t.politician] || 0) + 1);
+  fill('f-politician', Object.keys(counts).sort((a, b) => counts[b] - counts[a]),
+       v => `${v} (${counts[v]})`);
+  fill('f-ticker', uniq('ticker'));
+  fill('f-party', uniq('party'));
+  fill('f-type', uniq('type'));
+  fill('f-date', [...new Set(state.trades.map(t => (t.date || '').slice(0, 7)))].filter(Boolean).sort().reverse());
+}
+
+function filtered() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const pol = document.getElementById('f-politician').value;
+  const tic = document.getElementById('f-ticker').value;
+  const par = document.getElementById('f-party').value;
+  const typ = document.getElementById('f-type').value;
+  const mon = document.getElementById('f-date').value;
+
+  let rows = state.trades.filter(t =>
+    (!pol || t.politician === pol) && (!tic || t.ticker === tic) &&
+    (!par || t.party === par) && (!typ || t.type === typ) &&
+    (!mon || (t.date || '').startsWith(mon)) &&
+    (!q || [t.politician, t.ticker, t.state, t.amount, t.office, t.date]
+            .join(' ').toLowerCase().includes(q)));
+
+  const { key, dir } = state.sort;
+  return rows.sort((a, b) => String(a[key] ?? '').localeCompare(String(b[key] ?? ''),
+                                                                undefined, { numeric: true }) * dir);
+}
+
+function renderStats() {
+  const members = new Set(state.trades.map(t => t.politician)).size;
+  const tickers = new Set(state.trades.map(t => t.ticker)).size;
+  document.getElementById('stats').innerHTML = [
+    [state.trades.length, 'disclosures'], [members, 'members'],
+    [tickers, 'tickers'], [state.reports.length, 'reports sent'],
+  ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+}
+
+function renderTrades() {
+  const rows = filtered();
+  document.querySelector('#trades tbody').innerHTML = rows.length ? rows.map(t => `
+    <tr>
+      <td>${esc(t.politician)}${t.office ? `<br><span class="muted">${esc(t.office)}</span>` : ''}</td>
+      <td><span class="pill">${esc(t.party || '—')}</span></td>
+      <td class="hide-sm">${esc(t.state || '—')}</td>
+      <td><b>${esc(t.ticker)}</b></td>
+      <td class="${t.type === 'Buy' ? 'buy' : t.type === 'Sell' ? 'sell' : ''}">${esc(t.type)}</td>
+      <td>${esc(t.amount)}</td>
+      <td>${esc(t.date)}</td>
+      <td class="hide-sm">${esc(t.first_sent || '')}</td>
+      <td>${t.doc_url ? `<a href="${esc(t.doc_url)}" target="_blank" rel="noopener">Filing</a>` : '—'}</td>
+    </tr>`).join('') : `<tr><td colspan="9" class="empty">No disclosures match those filters.</td></tr>`;
+  document.getElementById('count').textContent =
+    `${rows.length} of ${state.trades.length} disclosures shown.`;
+  markSort('#trades', state.sort);
+}
+
+function renderReports() {
+  const { key, dir } = state.rsort;
+  const rows = [...state.reports].sort((a, b) =>
+    String(a[key] ?? '').localeCompare(String(b[key] ?? ''), undefined, { numeric: true }) * dir);
+  document.querySelector('#reports tbody').innerHTML = rows.length ? rows.map(r => `
+    <tr>
+      <td>${esc(r.date)} <span class="muted">${esc(r.time || '')}</span></td>
+      <td>${r.trades}</td>
+      <td>${esc((r.members || []).join(', ')) || '—'}</td>
+      <td><a href="reports/${esc(r.id)}.html">Open</a></td>
+    </tr>`).join('') : `<tr><td colspan="4" class="empty">No reports archived yet.</td></tr>`;
+  markSort('#reports', state.rsort);
+}
+
+function markSort(sel, s) {
+  document.querySelectorAll(`${sel} th[data-key]`).forEach(th => {
+    const active = th.dataset.key === s.key;
+    th.querySelector('.dir')?.remove();
+    if (active) th.insertAdjacentHTML('beforeend', `<span class="dir"> ${s.dir > 0 ? '▲' : '▼'}</span>`);
+  });
+}
+
+document.querySelectorAll('#trades th[data-key]').forEach(th => th.onclick = () => {
+  const k = th.dataset.key;
+  state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 };
+  renderTrades();
+});
+document.querySelectorAll('#reports th[data-key]').forEach(th => th.onclick = () => {
+  const k = th.dataset.key;
+  state.rsort = { key: k, dir: state.rsort.key === k ? -state.rsort.dir : 1 };
+  renderReports();
+});
+['q', 'f-politician', 'f-ticker', 'f-party', 'f-type', 'f-date'].forEach(id => {
+  const el = document.getElementById(id);
+  el.addEventListener(id === 'q' ? 'input' : 'change', renderTrades);
+});
+document.getElementById('reset').onclick = () => {
+  ['q', 'f-politician', 'f-ticker', 'f-party', 'f-type', 'f-date']
+    .forEach(id => document.getElementById(id).value = '');
+  renderTrades();
+};
+document.getElementById('tab-trades').onclick = () => showTab(true);
+document.getElementById('tab-reports').onclick = () => showTab(false);
+function showTab(trades) {
+  document.getElementById('view-trades').hidden = !trades;
+  document.getElementById('view-reports').hidden = trades;
+  document.getElementById('tab-trades').setAttribute('aria-selected', trades);
+  document.getElementById('tab-reports').setAttribute('aria-selected', !trades);
+}
+
+load();
+</script>
+</body>
+</html>
