@@ -858,6 +858,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf"
  },
  {
+  "report": "2026-08-25-2158",
+  "first_sent": "2026-08-25",
+  "politician": "Nancy Pelosi",
+  "party": "D",
+  "state": "CA",
+  "office": "U.S. Representative \u00b7 CA-12",
+  "ticker": "BE",
+  "type": "Buy",
+  "amount": "$500,001 - $1,000,000",
+  "date": "2026-07-28",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+ },
+ {
   "report": "2026-08-25-1603",
   "first_sent": "2026-08-25",
   "politician": "Maria Elvira Salazar",
