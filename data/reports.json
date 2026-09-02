@@ -1,5 +1,44 @@
 [
  {
+  "id": "2026-09-02-1803",
+  "sent": "2026-09-02T18:03:18",
+  "date": "2026-09-02",
+  "time": "18:03",
+  "trades": 26,
+  "members": [
+   "Christian D. Menefee",
+   "David J. Taylor",
+   "Ed Case",
+   "Kelly Louise Morrison",
+   "Kevin Hern",
+   "Michael Rulli",
+   "Steve Cohen",
+   "Tim Moore",
+   "William R. Keating"
+  ],
+  "tickers": [
+   "AAPL",
+   "ACN",
+   "CCI",
+   "CMCSA",
+   "DEO",
+   "EL",
+   "GOOGL",
+   "IBP",
+   "JPM",
+   "KVUE",
+   "MBGL",
+   "MDLZ",
+   "MSFT",
+   "OGN",
+   "PG",
+   "PINS",
+   "SOLS",
+   "T",
+   "VSNT"
+  ]
+ },
+ {
   "id": "2026-09-01-2334",
   "sent": "2026-09-01T23:34:02",
   "date": "2026-09-01",
