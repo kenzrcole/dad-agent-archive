@@ -1,5 +1,18 @@
 [
  {
+  "report": "2026-09-07-1850",
+  "first_sent": "2026-09-07",
+  "politician": "Jonathan Jackson",
+  "party": "D",
+  "state": "IL",
+  "office": "U.S. Representative \u00b7 IL-01",
+  "ticker": "VSAT",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-28",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035370.pdf"
+ },
+ {
   "report": "2026-08-27-2356",
   "first_sent": "2026-08-27",
   "politician": "Michael Rulli",
