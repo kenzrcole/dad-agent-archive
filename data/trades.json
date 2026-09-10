@@ -520,6 +520,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf"
  },
  {
+  "report": "2026-09-10-1752",
+  "first_sent": "2026-09-10",
+  "politician": "Lloyd Doggett",
+  "party": "D",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-35",
+  "ticker": "PG",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-17",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035401.pdf"
+ },
+ {
   "report": "2026-09-08-1805",
   "first_sent": "2026-09-08",
   "politician": "Tony Wied",
