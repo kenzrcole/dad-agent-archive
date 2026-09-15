@@ -39,6 +39,45 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf"
  },
  {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "Thomas H. Kean Jr",
+  "party": "R",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-07",
+  "ticker": "MSFT",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-08-27",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf"
+ },
+ {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "Thomas H. Kean Jr",
+  "party": "R",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-07",
+  "ticker": "JNJ",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-27",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf"
+ },
+ {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "Thomas H. Kean Jr",
+  "party": "R",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-07",
+  "ticker": "GOOGL",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-27",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf"
+ },
+ {
   "report": "2026-09-08-1805",
   "first_sent": "2026-09-08",
   "politician": "Rohit Khanna",
@@ -1001,6 +1040,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf"
  },
  {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "Thomas H. Kean Jr",
+  "party": "R",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-07",
+  "ticker": "MTZ",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-21",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf"
+ },
+ {
   "report": "2026-09-04-1752",
   "first_sent": "2026-09-04",
   "politician": "Steve Cohen",
@@ -1181,6 +1233,58 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-08-20",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf"
+ },
+ {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "August Lee Pfluger II",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-11",
+  "ticker": "LBRDK",
+  "type": "Exchange",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-20",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf"
+ },
+ {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "August Lee Pfluger II",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-11",
+  "ticker": "LBRDK",
+  "type": "Exchange",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-20",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf"
+ },
+ {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "August Lee Pfluger II",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-11",
+  "ticker": "CHTR",
+  "type": "Exchange",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-20",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf"
+ },
+ {
+  "report": "2026-09-15-2340",
+  "first_sent": "2026-09-15",
+  "politician": "August Lee Pfluger II",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-11",
+  "ticker": "CHTR",
+  "type": "Exchange",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-08-20",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf"
  },
  {
   "report": "2026-09-11-1754",
