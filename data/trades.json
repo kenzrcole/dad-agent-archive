@@ -1,5 +1,31 @@
 [
  {
+  "report": "2026-09-22-1814",
+  "first_sent": "2026-09-22",
+  "politician": "Pete Sessions",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-32",
+  "ticker": "GOOGL",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-09-14",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+ },
+ {
+  "report": "2026-09-22-1814",
+  "first_sent": "2026-09-22",
+  "politician": "Pete Sessions",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-32",
+  "ticker": "ABBV",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-09-14",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+ },
+ {
   "report": "2026-09-21-1941",
   "first_sent": "2026-09-21",
   "politician": "David J. Taylor",
@@ -24,6 +50,19 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-09-08",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf"
+ },
+ {
+  "report": "2026-09-22-1814",
+  "first_sent": "2026-09-22",
+  "politician": "A. Mitchell",
+  "party": "",
+  "state": "",
+  "office": "",
+  "ticker": "WFC",
+  "type": "Buy",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-09-01",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/028aef33-dc0d-44a1-992f-aa35ee42685b/"
  },
  {
   "report": "2026-09-08-1805",
