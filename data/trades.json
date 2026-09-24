@@ -1,5 +1,18 @@
 [
  {
+  "report": "2026-09-24-1837",
+  "first_sent": "2026-09-24",
+  "politician": "Pete Sessions",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-32",
+  "ticker": "AAPL",
+  "type": "Sell",
+  "amount": "$100,001 - $250,000",
+  "date": "2026-09-22",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
+ },
+ {
   "report": "2026-09-22-1814",
   "first_sent": "2026-09-22",
   "politician": "Pete Sessions",
@@ -52,6 +65,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf"
  },
  {
+  "report": "2026-09-24-1837",
+  "first_sent": "2026-09-24",
+  "politician": "Sheri Biggs",
+  "party": "R",
+  "state": "SC",
+  "office": "U.S. Representative \u00b7 SC-03",
+  "ticker": "BNS",
+  "type": "Buy",
+  "amount": "$500,001 - $1,000,000",
+  "date": "2026-09-01",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf"
+ },
+ {
   "report": "2026-09-22-1814",
   "first_sent": "2026-09-22",
   "politician": "A. Mitchell",
@@ -76,6 +102,19 @@
   "amount": "$250,001 - $500,000",
   "date": "2026-08-31",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf"
+ },
+ {
+  "report": "2026-09-24-1837",
+  "first_sent": "2026-09-24",
+  "politician": "Scott H. Peters",
+  "party": "D",
+  "state": "CA",
+  "office": "U.S. Representative \u00b7 CA-52",
+  "ticker": "US-TBILL",
+  "type": "Sell",
+  "amount": "$50,001 - $100,000",
+  "date": "2026-08-31",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf"
  },
  {
   "report": "2026-09-07-1850",
