@@ -1,5 +1,45 @@
 [
  {
+  "id": "2026-09-25-1901",
+  "sent": "2026-09-25T19:01:18",
+  "date": "2026-09-25",
+  "time": "19:01",
+  "trades": 21,
+  "members": [
+   "A. Mitchell",
+   "David J. Taylor",
+   "Gilbert Cisneros",
+   "John Boozman",
+   "Jonathan Jackson",
+   "Pete Sessions",
+   "Rohit Khanna",
+   "Scott H. Peters",
+   "Sheri Biggs",
+   "Thomas H. Kean Jr",
+   "Tony Wied"
+  ],
+  "tickers": [
+   "AAPL",
+   "ABBV",
+   "BNS",
+   "DASH",
+   "ETN",
+   "GOOGL",
+   "IBP",
+   "IVV",
+   "JNJ",
+   "JPM",
+   "MSFT",
+   "NKE",
+   "OTIS",
+   "PG",
+   "PWR",
+   "US-TBILL",
+   "VSAT",
+   "WFC"
+  ]
+ },
+ {
   "id": "2026-09-25-0008",
   "sent": "2026-09-25T00:08:38",
   "date": "2026-09-25",
