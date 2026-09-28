@@ -1,5 +1,30 @@
 [
  {
+  "id": "2026-09-28-2046",
+  "sent": "2026-09-28T20:46:20",
+  "date": "2026-09-28",
+  "time": "20:46",
+  "trades": 9,
+  "members": [
+   "A. Mitchell",
+   "David J. Taylor",
+   "Pete Sessions",
+   "Scott H. Peters",
+   "Sheri Biggs",
+   "Tony Wied"
+  ],
+  "tickers": [
+   "AAPL",
+   "ABBV",
+   "BNS",
+   "GOOGL",
+   "IBP",
+   "PG",
+   "US-TBILL",
+   "WFC"
+  ]
+ },
+ {
   "id": "2026-09-26-0012",
   "sent": "2026-09-26T00:12:32",
   "date": "2026-09-26",
