@@ -1,5 +1,46 @@
 [
  {
+  "id": "2026-10-02-0106",
+  "sent": "2026-10-02T01:06:24",
+  "date": "2026-10-02",
+  "time": "01:06",
+  "trades": 41,
+  "members": [
+   "David J. Taylor",
+   "Kevin Hern",
+   "Pete Sessions"
+  ],
+  "tickers": [
+   "AAPL",
+   "ABBV",
+   "AIO",
+   "BSX",
+   "CDNS",
+   "CNP",
+   "DVN",
+   "EMR",
+   "ETN",
+   "ETV",
+   "GOOGL",
+   "HD",
+   "IBP",
+   "IQV",
+   "ITW",
+   "MRSH",
+   "NEE",
+   "NVO",
+   "OKE",
+   "PG",
+   "PTC",
+   "ROK",
+   "STE",
+   "STX",
+   "TJX",
+   "UNH",
+   "VUZI"
+  ]
+ },
+ {
   "id": "2026-10-01-1944",
   "sent": "2026-10-01T19:44:04",
   "date": "2026-10-01",
