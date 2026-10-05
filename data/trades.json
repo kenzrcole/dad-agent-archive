@@ -13,6 +13,45 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
  },
  {
+  "report": "2026-10-05-2140",
+  "first_sent": "2026-10-05",
+  "politician": "David J. Taylor",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-02",
+  "ticker": "MPC",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-22",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+ },
+ {
+  "report": "2026-10-05-2140",
+  "first_sent": "2026-10-05",
+  "politician": "David J. Taylor",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-02",
+  "ticker": "HD",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-22",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+ },
+ {
+  "report": "2026-10-05-2140",
+  "first_sent": "2026-10-05",
+  "politician": "David J. Taylor",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-02",
+  "ticker": "AMGN",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-22",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+ },
+ {
   "report": "2026-09-29-1934",
   "first_sent": "2026-09-29",
   "politician": "Kevin Hern",
@@ -234,6 +273,32 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
  },
  {
+  "report": "2026-10-05-2140",
+  "first_sent": "2026-10-05",
+  "politician": "Cleo Fields",
+  "party": "D",
+  "state": "LA",
+  "office": "U.S. Representative \u00b7 LA-06",
+  "ticker": "NFLX",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-14",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf"
+ },
+ {
+  "report": "2026-10-05-2140",
+  "first_sent": "2026-10-05",
+  "politician": "Cleo Fields",
+  "party": "D",
+  "state": "LA",
+  "office": "U.S. Representative \u00b7 LA-06",
+  "ticker": "GOOG",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-14",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf"
+ },
+ {
   "report": "2026-09-29-1934",
   "first_sent": "2026-09-29",
   "politician": "Kevin Hern",
@@ -310,6 +375,19 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-09-10",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+ },
+ {
+  "report": "2026-10-05-2140",
+  "first_sent": "2026-10-05",
+  "politician": "Cleo Fields",
+  "party": "D",
+  "state": "LA",
+  "office": "U.S. Representative \u00b7 LA-06",
+  "ticker": "MSFT",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-10",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf"
  },
  {
   "report": "2026-09-29-1934",
@@ -427,6 +505,19 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-09-08",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf"
+ },
+ {
+  "report": "2026-10-05-2140",
+  "first_sent": "2026-10-05",
+  "politician": "Cleo Fields",
+  "party": "D",
+  "state": "LA",
+  "office": "U.S. Representative \u00b7 LA-06",
+  "ticker": "AAPL",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-08",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf"
  },
  {
   "report": "2026-10-02-1931",
