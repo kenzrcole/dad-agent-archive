@@ -1,5 +1,18 @@
 [
  {
+  "report": "2026-10-06-1945",
+  "first_sent": "2026-10-06",
+  "politician": "Michael Rulli",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-06",
+  "ticker": "MSFT",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-28",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf"
+ },
+ {
   "report": "2026-09-24-1837",
   "first_sent": "2026-09-24",
   "politician": "Pete Sessions",
@@ -50,6 +63,32 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-09-22",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf"
+ },
+ {
+  "report": "2026-10-06-1945",
+  "first_sent": "2026-10-06",
+  "politician": "Vince Fong",
+  "party": "R",
+  "state": "CA",
+  "office": "U.S. Representative \u00b7 CA-20",
+  "ticker": "US-TBILL",
+  "type": "Buy",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-09-18",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035539.pdf"
+ },
+ {
+  "report": "2026-10-06-1945",
+  "first_sent": "2026-10-06",
+  "politician": "Lloyd Doggett",
+  "party": "D",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-35",
+  "ticker": "HD",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-17",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
  },
  {
   "report": "2026-09-29-1934",
@@ -299,6 +338,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf"
  },
  {
+  "report": "2026-10-06-1945",
+  "first_sent": "2026-10-06",
+  "politician": "Lloyd Doggett",
+  "party": "D",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-35",
+  "ticker": "PPG",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-11",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
+ },
+ {
   "report": "2026-09-29-1934",
   "first_sent": "2026-09-29",
   "politician": "Kevin Hern",
@@ -323,6 +375,19 @@
   "amount": "$500,001 - $1,000,000",
   "date": "2026-09-11",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+ },
+ {
+  "report": "2026-10-06-1945",
+  "first_sent": "2026-10-06",
+  "politician": "Lloyd Doggett",
+  "party": "D",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-35",
+  "ticker": "IBM",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-10",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
  },
  {
   "report": "2026-09-29-1934",
@@ -440,6 +505,19 @@
   "amount": "$50,001 - $100,000",
   "date": "2026-09-09",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+ },
+ {
+  "report": "2026-10-06-1945",
+  "first_sent": "2026-10-06",
+  "politician": "Lloyd Doggett",
+  "party": "D",
+  "state": "TX",
+  "office": "U.S. Representative \u00b7 TX-35",
+  "ticker": "JNJ",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-08",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
  },
  {
   "report": "2026-09-29-1934",
