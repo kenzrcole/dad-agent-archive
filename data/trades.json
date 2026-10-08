@@ -78,6 +78,32 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035539.pdf"
  },
  {
+  "report": "2026-10-08-2004",
+  "first_sent": "2026-10-08",
+  "politician": "Tony Wied",
+  "party": "R",
+  "state": "WI",
+  "office": "U.S. Representative \u00b7 WI-08",
+  "ticker": "UPST",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-09-17",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116361.pdf"
+ },
+ {
+  "report": "2026-10-08-2004",
+  "first_sent": "2026-10-08",
+  "politician": "Tony Wied",
+  "party": "R",
+  "state": "WI",
+  "office": "U.S. Representative \u00b7 WI-08",
+  "ticker": "NOW",
+  "type": "Sell",
+  "amount": "$50,001 - $100,000",
+  "date": "2026-09-17",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116361.pdf"
+ },
+ {
   "report": "2026-10-06-1945",
   "first_sent": "2026-10-06",
   "politician": "Lloyd Doggett",
