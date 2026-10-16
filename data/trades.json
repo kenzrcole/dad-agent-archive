@@ -1235,6 +1235,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
  },
  {
+  "report": "2026-10-16-1818",
+  "first_sent": "2026-10-16",
+  "politician": "Richard W. Allen",
+  "party": "R",
+  "state": "GA",
+  "office": "U.S. Representative \u00b7 GA-12",
+  "ticker": "AZO",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-09-22",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
+ },
+ {
   "report": "2026-09-24-1837",
   "first_sent": "2026-09-24",
   "politician": "Pete Sessions",
@@ -1376,6 +1389,32 @@
   "amount": "$15,001 - $50,000",
   "date": "2026-09-18",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035539.pdf"
+ },
+ {
+  "report": "2026-10-16-1818",
+  "first_sent": "2026-10-16",
+  "politician": "Richard W. Allen",
+  "party": "R",
+  "state": "GA",
+  "office": "U.S. Representative \u00b7 GA-12",
+  "ticker": "COST",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-18",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
+ },
+ {
+  "report": "2026-10-16-1818",
+  "first_sent": "2026-10-16",
+  "politician": "Richard Dean McCormick",
+  "party": "R",
+  "state": "GA",
+  "office": "U.S. Representative \u00b7 GA-06",
+  "ticker": "BRK.B",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-18",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035651.pdf"
  },
  {
   "report": "2026-10-14-1858",
