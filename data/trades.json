@@ -1625,6 +1625,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035590.pdf"
  },
  {
+  "report": "2026-10-22-1845",
+  "first_sent": "2026-10-22",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "APTV",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-25",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/"
+ },
+ {
   "report": "2026-10-19-2009",
   "first_sent": "2026-10-19",
   "politician": "Scott H. Peters",
@@ -2000,6 +2013,45 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-09-24",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+ },
+ {
+  "report": "2026-10-22-1845",
+  "first_sent": "2026-10-22",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "MU",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-24",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/7dfdae57-9401-4bf1-9059-85d1e5ee4a84/"
+ },
+ {
+  "report": "2026-10-22-1845",
+  "first_sent": "2026-10-22",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "O",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-24",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/94c5f7b9-cdbc-40b4-aeba-de920da58588/"
+ },
+ {
+  "report": "2026-10-22-1845",
+  "first_sent": "2026-10-22",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "CSCO",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-09-24",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/94c5f7b9-cdbc-40b4-aeba-de920da58588/"
  },
  {
   "report": "2026-10-12-2215",
