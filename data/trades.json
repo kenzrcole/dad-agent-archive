@@ -78,6 +78,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf"
  },
  {
+  "report": "2026-10-24-0001",
+  "first_sent": "2026-10-24",
+  "politician": "Cleo Fields",
+  "party": "D",
+  "state": "LA",
+  "office": "U.S. Representative \u00b7 LA-06",
+  "ticker": "TSM",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-09",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf"
+ },
+ {
   "report": "2026-10-14-1858",
   "first_sent": "2026-10-14",
   "politician": "Rick Larsen",
@@ -167,6 +180,19 @@
   "amount": "$15,001 - $50,000",
   "date": "2026-10-01",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+ },
+ {
+  "report": "2026-10-24-0001",
+  "first_sent": "2026-10-24",
+  "politician": "Cleo Fields",
+  "party": "D",
+  "state": "LA",
+  "office": "U.S. Representative \u00b7 LA-06",
+  "ticker": "NVDA",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-01",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf"
  },
  {
   "report": "2026-10-12-2215",
