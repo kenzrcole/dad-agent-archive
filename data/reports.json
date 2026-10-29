@@ -1,5 +1,43 @@
 [
  {
+  "id": "2026-10-29-0120",
+  "sent": "2026-10-29T01:20:46",
+  "date": "2026-10-29",
+  "time": "01:20",
+  "trades": 20,
+  "members": [
+   "Cleo Fields",
+   "David J. Taylor",
+   "Gilbert Cisneros",
+   "Kevin Hern",
+   "Lisa McClain",
+   "Michael Rulli",
+   "Rick Larsen",
+   "Rohit Khanna"
+  ],
+  "tickers": [
+   "ADI",
+   "BHE",
+   "FDX",
+   "FITB",
+   "GOOG",
+   "HD",
+   "IBRX",
+   "MSFT",
+   "NEE",
+   "NVDA",
+   "ORCL",
+   "PG",
+   "RPM",
+   "STX",
+   "T",
+   "THR",
+   "TSM",
+   "WSBC",
+   "WSM"
+  ]
+ },
+ {
   "id": "2026-10-28-1950",
   "sent": "2026-10-28T19:50:31",
   "date": "2026-10-28",
