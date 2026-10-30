@@ -26,6 +26,32 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
  },
  {
+  "report": "2026-10-30-1942",
+  "first_sent": "2026-10-30",
+  "politician": "Kevin Hern",
+  "party": "R",
+  "state": "OK",
+  "office": "U.S. Representative \u00b7 OK-01",
+  "ticker": "STX",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-10-23",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+ },
+ {
+  "report": "2026-10-30-1942",
+  "first_sent": "2026-10-30",
+  "politician": "Kevin Hern",
+  "party": "R",
+  "state": "OK",
+  "office": "U.S. Representative \u00b7 OK-01",
+  "ticker": "ASML",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-10-23",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+ },
+ {
   "report": "2026-10-29-2003",
   "first_sent": "2026-10-29",
   "politician": "Pete Sessions",
@@ -154,6 +180,19 @@
   "amount": "$15,001 - $50,000",
   "date": "2026-10-14",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+ },
+ {
+  "report": "2026-10-30-1942",
+  "first_sent": "2026-10-30",
+  "politician": "Kevin Hern",
+  "party": "R",
+  "state": "OK",
+  "office": "U.S. Representative \u00b7 OK-01",
+  "ticker": "TXN",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-10-14",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
  },
  {
   "report": "2026-10-29-2003",
