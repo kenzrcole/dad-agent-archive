@@ -104,6 +104,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
  },
  {
+  "report": "2026-11-05-2113",
+  "first_sent": "2026-11-05",
+  "politician": "Robert E. Latta",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-05",
+  "ticker": "FMAO",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-20",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035763.pdf"
+ },
+ {
   "report": "2026-10-29-2003",
   "first_sent": "2026-10-29",
   "politician": "Pete Sessions",
