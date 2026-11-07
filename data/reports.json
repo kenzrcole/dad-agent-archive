@@ -1,5 +1,48 @@
 [
  {
+  "id": "2026-11-07-0119",
+  "sent": "2026-11-07T01:19:29",
+  "date": "2026-11-07",
+  "time": "01:19",
+  "trades": 28,
+  "members": [
+   "Cleo Fields",
+   "David J. Taylor",
+   "Kevin Hern",
+   "Michael Rulli",
+   "Pete Sessions",
+   "Robert E. Latta"
+  ],
+  "tickers": [
+   "AMZN",
+   "ASML",
+   "BRK.B",
+   "COST",
+   "CVX",
+   "FITB",
+   "FMAO",
+   "GOOG",
+   "HD",
+   "IBM",
+   "LOW",
+   "LRCX",
+   "MCD",
+   "MPC",
+   "PEP",
+   "PG",
+   "PLD",
+   "RPM",
+   "SOLS",
+   "STX",
+   "T",
+   "TSM",
+   "TXN",
+   "V",
+   "WSBC",
+   "XOM"
+  ]
+ },
+ {
   "id": "2026-11-06-2053",
   "sent": "2026-11-06T20:53:31",
   "date": "2026-11-06",
