@@ -26,6 +26,58 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
  },
  {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Josh Gottheimer",
+  "party": "D",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-05",
+  "ticker": "AMAT",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-26",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Maria Elvira Salazar",
+  "party": "R",
+  "state": "FL",
+  "office": "U.S. Representative \u00b7 FL-27",
+  "ticker": "PG",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-23",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035778.pdf"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Maria Elvira Salazar",
+  "party": "R",
+  "state": "FL",
+  "office": "U.S. Representative \u00b7 FL-27",
+  "ticker": "NVDA",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-23",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035778.pdf"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Maria Elvira Salazar",
+  "party": "R",
+  "state": "FL",
+  "office": "U.S. Representative \u00b7 FL-27",
+  "ticker": "CSCO",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-23",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035778.pdf"
+ },
+ {
   "report": "2026-10-30-1942",
   "first_sent": "2026-10-30",
   "politician": "Kevin Hern",
@@ -76,6 +128,58 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-10-22",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Shelley M Capito",
+  "party": "R",
+  "state": "WV",
+  "office": "U.S. Senator \u00b7 WV",
+  "ticker": "AAPL",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/a89c0c6b-4c12-4955-98f9-3a54ca52d8a3/"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Shelley M Capito",
+  "party": "R",
+  "state": "WV",
+  "office": "U.S. Senator \u00b7 WV",
+  "ticker": "META",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/a89c0c6b-4c12-4955-98f9-3a54ca52d8a3/"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Shelley M Capito",
+  "party": "R",
+  "state": "WV",
+  "office": "U.S. Senator \u00b7 WV",
+  "ticker": "MSFT",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/a89c0c6b-4c12-4955-98f9-3a54ca52d8a3/"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Shelley M Capito",
+  "party": "R",
+  "state": "WV",
+  "office": "U.S. Senator \u00b7 WV",
+  "ticker": "ZTS",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/a89c0c6b-4c12-4955-98f9-3a54ca52d8a3/"
  },
  {
   "report": "2026-10-29-2003",
@@ -156,6 +260,32 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035671.pdf"
  },
  {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Sheldon Whitehouse",
+  "party": "D",
+  "state": "RI",
+  "office": "U.S. Senator \u00b7 RI",
+  "ticker": "AMGN",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-10-15",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/02b5fe88-e8e1-4ef3-b6b5-6a46b420fb3c/"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Sheldon Whitehouse",
+  "party": "D",
+  "state": "RI",
+  "office": "U.S. Senator \u00b7 RI",
+  "ticker": "MSFT",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-15",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/02b5fe88-e8e1-4ef3-b6b5-6a46b420fb3c/"
+ },
+ {
   "report": "2026-10-29-2003",
   "first_sent": "2026-10-29",
   "politician": "Pete Sessions",
@@ -167,6 +297,19 @@
   "amount": "$15,001 - $50,000",
   "date": "2026-10-15",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Josh Gottheimer",
+  "party": "D",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-05",
+  "ticker": "TLK",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-15",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
  },
  {
   "report": "2026-11-02-2254",
@@ -297,6 +440,19 @@
   "amount": "$100,001 - $250,000",
   "date": "2026-10-13",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+ },
+ {
+  "report": "2026-11-09-2349",
+  "first_sent": "2026-11-09",
+  "politician": "Josh Gottheimer",
+  "party": "D",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-05",
+  "ticker": "BHE",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-12",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
  },
  {
   "report": "2026-10-19-2009",
