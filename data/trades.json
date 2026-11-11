@@ -390,6 +390,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035671.pdf"
  },
  {
+  "report": "2026-11-11-2142",
+  "first_sent": "2026-11-11",
+  "politician": "Thomas Suozzi",
+  "party": "D",
+  "state": "NY",
+  "office": "U.S. Representative \u00b7 NY-03",
+  "ticker": "US-TBILL",
+  "type": "Buy",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-10-15",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035014.pdf"
+ },
+ {
   "report": "2026-11-09-2349",
   "first_sent": "2026-11-09",
   "politician": "Sheldon Whitehouse",
@@ -596,6 +609,19 @@
   "amount": "$15,001 - $50,000",
   "date": "2026-10-14",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+ },
+ {
+  "report": "2026-11-11-2142",
+  "first_sent": "2026-11-11",
+  "politician": "Thomas Suozzi",
+  "party": "D",
+  "state": "NY",
+  "office": "U.S. Representative \u00b7 NY-03",
+  "ticker": "US-TBILL",
+  "type": "Buy",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-10-13",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035014.pdf"
  },
  {
   "report": "2026-11-10-2107",
