@@ -624,6 +624,58 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
  },
  {
+  "report": "2026-11-18-2215",
+  "first_sent": "2026-11-18",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "TLH",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/21941188-c04d-4713-8e6f-d954918e93fd/"
+ },
+ {
+  "report": "2026-11-18-2215",
+  "first_sent": "2026-11-18",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "CMBS",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/21941188-c04d-4713-8e6f-d954918e93fd/"
+ },
+ {
+  "report": "2026-11-18-2215",
+  "first_sent": "2026-11-18",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "MBB",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/06b7b716-bdc0-4c47-a4aa-96624e1e702c/"
+ },
+ {
+  "report": "2026-11-18-2215",
+  "first_sent": "2026-11-18",
+  "politician": "John Boozman",
+  "party": "R",
+  "state": "AR",
+  "office": "U.S. Senator \u00b7 AR",
+  "ticker": "HYBB",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-21",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/06b7b716-bdc0-4c47-a4aa-96624e1e702c/"
+ },
+ {
   "report": "2026-11-12-2139",
   "first_sent": "2026-11-12",
   "politician": "Gilbert Cisneros",
