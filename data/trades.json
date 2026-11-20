@@ -1,5 +1,18 @@
 [
  {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Michael Rulli",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-06",
+  "ticker": "COST",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-12",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
+ },
+ {
   "report": "2026-11-16-2332",
   "first_sent": "2026-11-16",
   "politician": "James French Hill",
@@ -11,6 +24,19 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-11-09",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035807.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Terri A. Sewell",
+  "party": "D",
+  "state": "AL",
+  "office": "U.S. Representative \u00b7 AL-07",
+  "ticker": "TPR",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-05",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036864.pdf"
  },
  {
   "report": "2026-11-16-2332",
@@ -63,6 +89,58 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-11-05",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Michael Rulli",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-06",
+  "ticker": "MSFT",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-04",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Michael Rulli",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-06",
+  "ticker": "LITE",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-04",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Michael Rulli",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-06",
+  "ticker": "LLY",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-04",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Michael Rulli",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-06",
+  "ticker": "GOOGL",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-04",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
  },
  {
   "report": "2026-11-16-2332",
@@ -258,6 +336,58 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-10-28",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116399.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Michael Rulli",
+  "party": "R",
+  "state": "OH",
+  "office": "U.S. Representative \u00b7 OH-06",
+  "ticker": "NVDA",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-28",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Thomas H. Kean Jr",
+  "party": "R",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-07",
+  "ticker": "SYK",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-27",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036844.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Thomas H. Kean Jr",
+  "party": "R",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-07",
+  "ticker": "MSFT",
+  "type": "Sell",
+  "amount": "$15,001 - $50,000",
+  "date": "2026-10-27",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036844.pdf"
+ },
+ {
+  "report": "2026-11-20-2158",
+  "first_sent": "2026-11-20",
+  "politician": "Thomas H. Kean Jr",
+  "party": "R",
+  "state": "NJ",
+  "office": "U.S. Representative \u00b7 NJ-07",
+  "ticker": "JNJ",
+  "type": "Sell",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-10-27",
+  "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036844.pdf"
  },
  {
   "report": "2026-10-29-2003",
