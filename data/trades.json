@@ -13,6 +13,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
  },
  {
+  "report": "2026-11-24-0150",
+  "first_sent": "2026-11-24",
+  "politician": "Rafael E Cruz",
+  "party": "R",
+  "state": "TX",
+  "office": "U.S. Senator \u00b7 TX",
+  "ticker": "GS",
+  "type": "Sell",
+  "amount": "$250,001 - $500,000",
+  "date": "2026-11-11",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/f0f7eba0-ca09-4b80-a97b-64b6dafb835e/"
+ },
+ {
   "report": "2026-11-16-2332",
   "first_sent": "2026-11-16",
   "politician": "James French Hill",
