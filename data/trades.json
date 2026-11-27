@@ -143,6 +143,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf"
  },
  {
+  "report": "2026-11-27-2256",
+  "first_sent": "2026-11-27",
+  "politician": "Rand Paul",
+  "party": "R",
+  "state": "KY",
+  "office": "U.S. Senator \u00b7 KY",
+  "ticker": "NVDA",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-09",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
+ },
+ {
   "report": "2026-11-25-2318",
   "first_sent": "2026-11-25",
   "politician": "Kevin Hern",
@@ -182,6 +195,19 @@
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035807.pdf"
  },
  {
+  "report": "2026-11-27-2256",
+  "first_sent": "2026-11-27",
+  "politician": "Rand Paul",
+  "party": "R",
+  "state": "KY",
+  "office": "U.S. Senator \u00b7 KY",
+  "ticker": "NVDA",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-07",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
+ },
+ {
   "report": "2026-11-20-2158",
   "first_sent": "2026-11-20",
   "politician": "Terri A. Sewell",
@@ -193,6 +219,19 @@
   "amount": "$1,001 - $15,000",
   "date": "2026-11-05",
   "doc_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036864.pdf"
+ },
+ {
+  "report": "2026-11-27-2256",
+  "first_sent": "2026-11-27",
+  "politician": "Rand Paul",
+  "party": "R",
+  "state": "KY",
+  "office": "U.S. Senator \u00b7 KY",
+  "ticker": "NVDA",
+  "type": "Buy",
+  "amount": "$1,001 - $15,000",
+  "date": "2026-11-05",
+  "doc_url": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
  },
  {
   "report": "2026-11-16-2332",
